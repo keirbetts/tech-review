@@ -1,11 +1,25 @@
 import React from "react";
-import { Nav } from "react-bootstrap";
+import './navbar.css'
+import Toggle from './Toggle'
 
 const NavBar = (props) => {
   return (
-    <div>
-      <h1>This is Nav</h1>
-    </div>
+    <header className='toolbar'>
+      <nav className='toolbar_navigation'>
+        <div className='toggle-toolbar-button'>
+          <Toggle click={props.drawerClickHandler} />
+
+        </div>
+        <div className='toolbar_logo'><a href='/'>Tech Review</a></div>
+        <div className='spacer' />
+        <div className='toolbar-nav-items'>
+          <ul>
+            <li><a href='/felibraries'>Front End Libraries</a></li>
+          </ul>
+
+        </div>
+      </nav>
+    </header>
   );
 };
 
