@@ -2,66 +2,77 @@ import React from "react";
 import StarRatingComponent from "react-star-rating-component";
 import { CardDeck, Card } from "react-bootstrap";
 import { Link } from "@reach/router";
+import './fecards.css'
 
 const FrontEndCards = () => {
   return (
     <div>
       <CardDeck>
-        <Card bg={"dark"}>
-          <Card.Img variant="top" />
-          <Card.Body style={{ color: "#36d1dc" }}>
+        <Card border='light' >
+          {/* <Card.Img variant="top" /> */}
+          <Card.Body style={{ color: 'whitesmoke' }}>
             <Card.Title>React Bootstrap</Card.Title>
             <Card.Text>
               Popular bootstrap designs rebuilt for seamless react integration
             </Card.Text>
-            <StarRatingComponent
-              name="overAllRating"
-              editing={false}
-              renderStarIcon={() => <span>★</span>}
-              starCount={5}
-              value={4}
-            />
-            <StarRatingComponent
-              name="overAllRating"
-              editing={false}
-              renderStarIcon={() => <span>★</span>}
-              starCount={5}
-              value={4}
-            />
+            <br></br>
+            <h5 style={{ color: 'green', float: 'left' }}>Overall Rating:</h5>
+            <div style={{ float: 'right' }}>
+              <StarRatingComponent
+                name="overallRating"
+                editing={false}
+                renderStarIcon={() => <span>★</span>}
+                starCount={5}
+                value={4}
+              />
+            </div>
+            <br></br>
+            <br></br>
+            <h5 style={{ color: 'green', float: 'left' }}>Ease of Use:</h5>
+            <div style={{ float: 'right' }}>
+              <StarRatingComponent
+                name="EaseOfUseRating"
+                editing={false}
+                renderStarIcon={() => <span>★</span>}
+                starCount={5}
+                value={4}
+              />
+            </div>
           </Card.Body>
           <Card.Footer>
             <Link style={{ color: "black" }} to={"/felibraries/reactbootstrap"}>
-              Read More
+              Find Out More
             </Link>
           </Card.Footer>
         </Card>
-        <Card bg={"dark"}>
-          <Card.Body>
-            <Card.Title>Card title</Card.Title>
+        <Card bg={"light"}>
+          <Card.Body style={{ color: 'whitesmoke' }}>
+            <Card.Title>Semantic UI</Card.Title>
             <Card.Text>
-              This card has supporting text below as a natural lead-in to
-              additional content.{" "}
+              lalalalal
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
+            <Link style={{ color: "black" }} to={"/felibraries/semantic-ui"}>
+              Find Out More
+            </Link>
           </Card.Footer>
         </Card>
-        <Card bg={"dark"}>
-          <Card.Body>
-            <Card.Title>Card title</Card.Title>
+        <Card bg={"light"}>
+          <Card.Body style={{ color: 'whitesmoke' }}>
+            <Card.Title>Material UI</Card.Title>
             <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
+              lalalala
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
+            <Link style={{ color: "black" }} to={"/felibraries/material-ui"}>
+              Find Out More
+            </Link>
           </Card.Footer>
         </Card>
       </CardDeck>
-    </div>
+    </div >
   );
 };
 
