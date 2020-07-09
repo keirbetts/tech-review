@@ -28,12 +28,11 @@ const FrontEndCards = () => {
               starCount={5}
               value={4}
             />
-            <Link style={{ color: "black" }} to={"/felibraries/reactbootstrap"}>
-              Link
-            </Link>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
+            <Link style={{ color: "black" }} to={"/felibraries/reactbootstrap"}>
+              Read More
+            </Link>
           </Card.Footer>
         </Card>
         <Card bg={"dark"}>
