@@ -9,7 +9,7 @@ const Footer = () => {
         <Row>
           <Col lg={3}>
             <h5>Built With React</h5></Col>
-          <Col lg={9}> <h5>By Developer For Developers</h5></Col>
+          <Col lg={9}> <h5>By Developers For Developers</h5></Col>
         </Row>
       </Container>
     </div>
