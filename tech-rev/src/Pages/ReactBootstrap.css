@@ -1,0 +1,11 @@
+.para{
+  margin-left: 20rem;
+  color: whitesmoke;
+   font-family: Courier New;
+}
+
+@media(max-width: 969px){
+  .para{
+    margin-left: 0;
+  }
+}
