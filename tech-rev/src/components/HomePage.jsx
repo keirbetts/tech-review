@@ -4,6 +4,7 @@ import { Router } from "@reach/router";
 import ReactBootstrap from "../Pages/ReactBootstrap";
 import SemanticUi from "../Pages/SemanticUi";
 import MaterialUi from "../Pages/MaterialUi";
+import Fecards from "../Cards/Fecards";
 
 const HomePage = () => {
   return (
@@ -12,7 +13,8 @@ const HomePage = () => {
 
       <br></br>
       <Router>
-        <FrontEndCards path="/" />
+        {/* <FrontEndCards path="/" /> */}
+        <Fecards path="/" />
         <ReactBootstrap path="/felibraries/reactbootstrap" />
         <SemanticUi path="/felibraries/semantic-ui" />
         <MaterialUi path="/felibraries/material-ui" />
