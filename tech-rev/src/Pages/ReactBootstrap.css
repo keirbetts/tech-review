@@ -2,6 +2,7 @@
   margin-left: 20rem;
   color: whitesmoke;
    font-family: Courier New;
+   padding-top: 0;
 }
 
 @media(max-width: 969px){

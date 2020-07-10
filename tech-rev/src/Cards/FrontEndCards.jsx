@@ -10,7 +10,7 @@ const FrontEndCards = () => {
     <div>
       <Title />
       <CardDeck>
-        <Card border="light">
+        <Card border="light" bg={'light'}>
           {/* <Card.Img variant="top" /> */}
           <Card.Body style={{ color: "whitesmoke" }}>
             <Card.Title>React Bootstrap</Card.Title>
