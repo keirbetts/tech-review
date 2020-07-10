@@ -2,22 +2,24 @@ import React from "react";
 import StarRatingComponent from "react-star-rating-component";
 import { CardDeck, Card } from "react-bootstrap";
 import { Link } from "@reach/router";
-import './fecards.css'
+import "./fecards.css";
+import Title from "../components/title";
 
 const FrontEndCards = () => {
   return (
     <div>
+      <Title />
       <CardDeck>
-        <Card border='light' >
+        <Card border="light">
           {/* <Card.Img variant="top" /> */}
-          <Card.Body style={{ color: 'whitesmoke' }}>
+          <Card.Body style={{ color: "whitesmoke" }}>
             <Card.Title>React Bootstrap</Card.Title>
             <Card.Text>
               Popular bootstrap designs rebuilt for seamless react integration
             </Card.Text>
             <br></br>
-            <h5 style={{ color: 'green', float: 'left' }}>Overall Rating:</h5>
-            <div style={{ float: 'right' }}>
+            <h5 style={{ color: "green", float: "left" }}>Overall Rating:</h5>
+            <div style={{ float: "right" }}>
               <StarRatingComponent
                 name="overallRating"
                 editing={false}
@@ -28,8 +30,8 @@ const FrontEndCards = () => {
             </div>
             <br></br>
             <br></br>
-            <h5 style={{ color: 'green', float: 'left' }}>Ease of Use:</h5>
-            <div style={{ float: 'right' }}>
+            <h5 style={{ color: "green", float: "left" }}>Ease of Use:</h5>
+            <div style={{ float: "right" }}>
               <StarRatingComponent
                 name="EaseOfUseRating"
                 editing={false}
@@ -46,11 +48,9 @@ const FrontEndCards = () => {
           </Card.Footer>
         </Card>
         <Card bg={"light"}>
-          <Card.Body style={{ color: 'whitesmoke' }}>
+          <Card.Body style={{ color: "whitesmoke" }}>
             <Card.Title>Semantic UI</Card.Title>
-            <Card.Text>
-              lalalalal
-            </Card.Text>
+            <Card.Text>lalalalal</Card.Text>
           </Card.Body>
           <Card.Footer>
             <Link style={{ color: "black" }} to={"/felibraries/semantic-ui"}>
@@ -59,11 +59,9 @@ const FrontEndCards = () => {
           </Card.Footer>
         </Card>
         <Card bg={"light"}>
-          <Card.Body style={{ color: 'whitesmoke' }}>
+          <Card.Body style={{ color: "whitesmoke" }}>
             <Card.Title>Material UI</Card.Title>
-            <Card.Text>
-              lalalala
-            </Card.Text>
+            <Card.Text>lalalala</Card.Text>
           </Card.Body>
           <Card.Footer>
             <Link style={{ color: "black" }} to={"/felibraries/material-ui"}>
@@ -72,7 +70,7 @@ const FrontEndCards = () => {
           </Card.Footer>
         </Card>
       </CardDeck>
-    </div >
+    </div>
   );
 };
 

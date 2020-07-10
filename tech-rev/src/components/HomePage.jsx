@@ -9,13 +9,13 @@ const HomePage = () => {
   return (
     <div>
       <br></br>
-      <h1 style={{ color: 'whitesmoke', textAlign: 'center', fontFamily: 'Courier New' }}>Tech Review</h1>
+
       <br></br>
       <Router>
-        <FrontEndCards path='/' />
-        <ReactBootstrap path='/felibraries/reactbootstrap' />
-        <SemanticUi path='/felibraries/semantic-ui' />
-        <MaterialUi path='/felibraries/material-ui' />
+        <FrontEndCards path="/" />
+        <ReactBootstrap path="/felibraries/reactbootstrap" />
+        <SemanticUi path="/felibraries/semantic-ui" />
+        <MaterialUi path="/felibraries/material-ui" />
       </Router>
       <br></br>
       <br></br>
