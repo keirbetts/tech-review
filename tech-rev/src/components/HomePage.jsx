@@ -9,8 +9,7 @@ const HomePage = () => {
   return (
     <div>
       <br></br>
-      <br></br>
-      <h1>Tech Review</h1>
+      <h1 style={{ color: 'whitesmoke', textAlign: 'center', fontFamily: 'Courier New' }}>Tech Review</h1>
       <br></br>
       <Router>
         <FrontEndCards path='/' />
