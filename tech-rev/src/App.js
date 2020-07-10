@@ -34,13 +34,22 @@ class App extends Component {
       backdrop = <Backdrop click={this.backdropClickHandler} />
     }
     return (
-      <div>
+      <div className='App'>
         <NavBar drawerClickHandler={this.drawerToggleClickHandler} />
         <Sidedrawer show={this.state.sideDrawerOpen} />
         {backdrop}
         <br></br>
         <br></br>
         <HomePage />
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
         <Footer />
       </div>
     );
