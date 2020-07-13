@@ -6,7 +6,11 @@ import rbimg from "../img/react-bootstrap.png";
 
 const ReactBootstrap = () => {
   return (
-    <Container>
+    <Container
+      className="bootStrapPage"
+      style={{ marginLeft: "10rem" }}
+      fluid="true"
+    >
       <h1
         style={{
           color: "whitesmoke",
@@ -18,7 +22,7 @@ const ReactBootstrap = () => {
       </h1>
       <br />
       <Row>
-        <Col sm={3}>
+        <Col sm={2}>
           <h5 style={{ float: "left", color: "whitesmoke" }}>
             <strong>Overall Rating:</strong>
           </h5>
@@ -92,7 +96,7 @@ const ReactBootstrap = () => {
           </div>
         </Col>
 
-        <Col className="para" sm={5}>
+        <Col className="para" sm={6}>
           <h3>
             <strong>Overview:</strong>
           </h3>
