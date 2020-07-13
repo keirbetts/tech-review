@@ -2,3 +2,15 @@
   /* background: linear-gradient(to right, #36d1dc, #5b86e5); */
   color: 'whitesmoke'
 }
+
+
+.hr{
+   border-top: 2px solid lightblue;
+    width: 70rem;
+}
+
+@media(max-width: 1069px){
+   .hr{
+      display: none;
+   }
+}

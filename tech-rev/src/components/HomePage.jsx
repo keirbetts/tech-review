@@ -5,6 +5,7 @@ import ReactBootstrap from "../Pages/ReactBootstrap";
 import SemanticUi from "../Pages/SemanticUi";
 import MaterialUi from "../Pages/MaterialUi";
 import Fecards from "../Cards/Fecards";
+import Title from "../components/title";
 
 const HomePage = () => {
   return (
@@ -14,7 +15,8 @@ const HomePage = () => {
       <br></br>
       <Router>
         {/* <FrontEndCards path="/" /> */}
-        <Fecards path="/" />
+        <Title path='/' />
+        <Fecards path="/felibraries" />
         <ReactBootstrap path="/felibraries/reactbootstrap" />
         <SemanticUi path="/felibraries/semantic-ui" />
         <MaterialUi path="/felibraries/material-ui" />

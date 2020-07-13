@@ -8,8 +8,9 @@ const Title = () => {
         textAlign: "center",
         fontFamily: "Courier New",
       }}
-    >
-      Tech Review
+    ><strong>
+        Tech Review
+      </strong>
     </h1>
   );
 };
