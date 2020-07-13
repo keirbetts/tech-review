@@ -28,13 +28,13 @@ const Title = () => {
           <br></br>
           <Row className='justify-content-center' style={{ marginTop: '-100px', textAlign: 'center' }}>
             <Col sm={4} lg={2}>
-              <Button style={{ borderRadius: '10px 10px 10px 10px', color: '#00ff00' }} variant="secondary" href='/felibraries'>Front End</Button>
+              <Button style={{ borderRadius: '10px 10px 10px 10px', color: '#00ff00' }} variant="dark" href='/felibraries'>Front End</Button>
             </Col>
             <Col sm={4} lg={2}>
               <Button style={{ borderRadius: '10px 10px 10px 10px', color: '#00ff00' }} variant="dark" href='/belibraries' >Back End</Button>
             </Col>
             <Col sm={4} lg={2}>
-              <Button style={{ borderRadius: '10px 10px 10px 10px', color: '#00ff00' }} variant="secondary" href='/npm-packages' >NPM Packages</Button>
+              <Button style={{ borderRadius: '10px 10px 10px 10px', color: '#00ff00' }} variant="dark" href='/npm-packages' >NPM Packages</Button>
             </Col>
           </Row>
         </Container>
