@@ -1,6 +1,5 @@
 import React from 'react';
 import "./fecards.css";
-import StarRatingComponent from "react-star-rating-component";
 import StarComp from '../components/StarComp'
 import { Container, Col, Row, Button } from "react-bootstrap";
 import { Link } from "@reach/router";
