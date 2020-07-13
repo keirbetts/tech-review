@@ -15,6 +15,8 @@ const NavBar = (props) => {
         <div className='toolbar-nav-items'>
           <ul>
             <li><a href='/felibraries'>Front End Libraries</a></li>
+            <li><a href='/belibraries'>Back End Libraries</a></li>
+            <li><a href='/npm-packages'>NPM Packages</a></li>
           </ul>
 
         </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Container, Row, Col } from 'react-bootstrap'
+import './title.css'
 
 const Title = () => {
   return (
@@ -27,10 +28,10 @@ const Title = () => {
           <br></br>
           <Row className='justify-content-center' style={{ marginTop: '-100px', textAlign: 'center' }}>
             <Col sm={4} lg={2}>
-              <Button style={{ borderRadius: '10px 10px 10px 10px' }} variant="success" href='/felibraries'>Front End Libraries</Button>
+              <Button style={{ borderRadius: '10px 10px 10px 10px' }} variant="success" href='/felibraries'>Front End</Button>
             </Col>
             <Col sm={4} lg={2}>
-              <Button style={{ borderRadius: '10px 10px 10px 10px', color: 'white' }} variant="info" href='/belibraries' >Back End Libraries</Button>
+              <Button style={{ borderRadius: '10px 10px 10px 10px', color: 'white' }} variant="info" href='/belibraries' >Back End</Button>
             </Col>
             <Col sm={4} lg={2}>
               <Button style={{ borderRadius: '10px 10px 10px 10px', color: 'white' }} variant="danger" href='/npm-packages' >NPM Packages</Button>
