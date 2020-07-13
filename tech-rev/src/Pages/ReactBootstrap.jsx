@@ -133,6 +133,25 @@ const ReactBootstrap = () => {
             <strong>Components</strong>
           </h1>
           <h3>
+            <strong>Cards</strong>
+          </h3>
+          <p>
+            {" "}
+            A responsive container is effective and easy to use. The Col and Row
+            components work well and the props system for responsive design is
+            simple.
+          </p>
+          <h3>
+            <strong>Carousel</strong>
+          </h3>
+          <p>
+            {" "}
+            Creates a carousel with ease. However, bootstrap does not offer
+            styling within the carousel, this means adding images is time
+            consuming and difficult, especially for the inexpienced css user. A
+            controlled carousel is also an option.
+          </p>
+          <h3>
             <strong>Container</strong>
           </h3>
           <p>
@@ -140,6 +159,19 @@ const ReactBootstrap = () => {
             A responsive container is effective and easy to use. The Col and Row
             components work well and the props system for responsive design is
             simple.
+          </p>
+          <h3>
+            <strong>Documentations</strong>
+          </h3>
+          <p>
+            {" "}
+            The documentations are clear with good examples. Advice on how to
+            install and import is clear and easy to find. The docs should not
+            pose and difficulties even for the inexperienced user. One issue
+            that could be raised is the number of components and their
+            flexibility means it can take time to find what you're looking for.
+            In many instances examples can be copied and pasted with only minor
+            adjustments
           </p>
         </Col>
       </Row>
