@@ -12,7 +12,6 @@ const Fecards = () => {
         color: "whitesmoke",
         textAlign: "center",
         fontFamily: "Courier New",
-        marginTop: '0rem'
       }}><strong>Front End Libraries</strong></h1>
       <hr className='hr'></hr>
       <br></br>
