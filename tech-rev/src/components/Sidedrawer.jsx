@@ -8,8 +8,11 @@ const Sidedrawer = (props) => {
   }
   return (
     <nav className={drawerClasses}>
+      <br></br>
       <ul>
         <li><a href='/felibraries'>Front End Libraries</a></li>
+        <li><a href='/belibraries'>Back End Libraries</a></li>
+        <li><a href='/npm-packages'>NPM Packages</a></li>
       </ul>
     </nav>
   );
