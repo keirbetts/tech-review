@@ -1,5 +1,4 @@
 import React from "react";
-import FrontEndCards from "../Cards/FrontEndCards";
 import { Router } from "@reach/router";
 import ReactBootstrap from "../Pages/ReactBootstrap";
 import SemanticUi from "../Pages/SemanticUi";
