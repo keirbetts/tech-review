@@ -1,8 +1,10 @@
 import React from 'react';
 import "./fecards.css";
-import StarComp from '../components/StarComp'
+import StarComp from '../StarComps/StarComp'
 import { Container, Col, Row, Button } from "react-bootstrap";
 import { Link } from "@reach/router";
+import ReactMdlStar from '../StarComps/ReactMdlStar';
+import SemanticStar from '../StarComps/SemanticStar';
 
 const Fecards = () => {
   return (
@@ -13,10 +15,12 @@ const Fecards = () => {
         fontFamily: "Courier New",
       }}><strong>Front End Libraries</strong></h1>
       <hr className='hr'></hr>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
+      <div className='br'>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+      </div>
       <br></br>
       <Container fluid='true' style={{ marginLeft: '2rem', marginTop: '0rem', color: 'whitesmoke', fontFamily: 'Courier New' }}>
         <Row>
@@ -40,7 +44,7 @@ const Fecards = () => {
           </Col>
           <Col sm={3}><h2><strong>Semantic UI</strong></h2>
             <p><strong>Create beautiful responsive layouts this is a library</strong></p>
-            <StarComp />
+            <SemanticStar />
             <Button variant='outline-light'>
               <Link style={{ color: "whitesmoke" }} to={"/felibraries/semantic-ui"}>
                 Find Out More
@@ -48,8 +52,8 @@ const Fecards = () => {
             </Button>
           </Col>
           <Col sm={3}><h2><strong>React-MDL</strong></h2>
-            <p><strong>Create beautiful non-responsive layouts this is outdated</strong></p>
-            <StarComp />
+            <p><strong>Creates non-responsive layouts this is outdated</strong></p>
+            <ReactMdlStar />
             <Button variant='outline-light'>
               <Link style={{ color: "whitesmoke" }} to={"/felibraries/react-mdl"}>
                 Find Out More
