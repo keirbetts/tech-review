@@ -8,9 +8,9 @@ const PageSideBar = () => {
       <Container>
         <Row>
           <Col sm={30}>
-            <p style={{ float: "left", color: "whitesmoke" }}>
-              <strong>Overall Rating:</strong>
-            </p>
+            <h5 style={{ float: "left", color: "whitesmoke" }}>
+              <strong>Overall Rating</strong>
+            </h5>
             <div style={{ float: "center" }}>
               <StarRatingComponent
                 name="overallRating"
@@ -21,7 +21,7 @@ const PageSideBar = () => {
               />
             </div>
             <h5 style={{ float: "left", color: "whitesmoke" }}>
-              <strong>Ease of Use:</strong>
+              <strong>Ease of Use</strong>
             </h5>
             <div style={{ float: "center" }}>
               <StarRatingComponent
@@ -33,7 +33,7 @@ const PageSideBar = () => {
               />
             </div>
             <h5 style={{ float: "left", color: "whitesmoke" }}>
-              <strong>Documentation:</strong>
+              <strong>Documentation</strong>
             </h5>
             <div style={{ float: "center" }}>
               <StarRatingComponent
