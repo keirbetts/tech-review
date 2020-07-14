@@ -1,8 +1,9 @@
 import React from "react";
 import { Container, Col, Row } from "react-bootstrap";
-import StarRatingComponent from "react-star-rating-component";
+
 import "./ReactBootstrap.css";
 import rbimg from "../img/react-bootstrap.png";
+import PageSideBar from "./ReactBootstrapSideBar";
 
 const ReactBootstrap = () => {
   return (
@@ -26,51 +27,9 @@ const ReactBootstrap = () => {
               src={rbimg}
               style={{ height: "auto", width: "20rem", marginTop: "-1rem" }}
             />
-            <hr className="hr" style={{ width: "20rem" }}></hr>
-            <h5 style={{ float: "left", color: "whitesmoke" }}>
-              <strong>Overall Rating:</strong>
-            </h5>
-            <div style={{ float: "right" }}>
-              <StarRatingComponent
-                name="overallRating"
-                editing={false}
-                renderStarIcon={() => <span>★</span>}
-                starCount={5}
-                value={4}
-              />
-            </div>
-            <h5 style={{ float: "left", color: "whitesmoke" }}>
-              <strong>Ease of Use:</strong>
-            </h5>
-            <div style={{ float: "right" }}>
-              <StarRatingComponent
-                name="EaseOfUseRating"
-                editing={false}
-                renderStarIcon={() => <span>★</span>}
-                starCount={5}
-                value={4}
-              />
-            </div>
-            {/* <h5 style={{ float: "left", color: "whitesmoke" }}>
-            <strong>Entry level:</strong>
-          </h5>
-          <div style={{ float: "right" }}>
-            <h5 style={{ float: "right", color: "whitesmoke" }}>
-              <p>For beginners</p>
-            </h5>
-          </div> */}
-            <h5 style={{ float: "left", color: "whitesmoke" }}>
-              <strong>Documentation:</strong>
-            </h5>
-            <div style={{ float: "right" }}>
-              <StarRatingComponent
-                name="Documentation"
-                editing={false}
-                renderStarIcon={() => <span>★</span>}
-                starCount={5}
-                value={4}
-              />
-            </div>
+            <hr className="hr" style={{ width: "20rem", float: "center" }}></hr>
+            <PageSideBar />
+
             <div
               style={{
                 color: "whitesmoke",
