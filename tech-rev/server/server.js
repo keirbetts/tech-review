@@ -14,8 +14,10 @@ const db = mongoose.connection;
 db.on('error', (error) => console.error(error));
 db.once('open', () => console.log('Connected to database!'));
 
-const router = require('./ratings')
-server.use("/ratings", router)
+
+
+const ApiRouter = require('./Routers/ApiRouter')
+server.use("/api", ApiRouter)
 
 
 server.listen(3000, () => console.log("Server started!"));

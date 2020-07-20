@@ -1,12 +1,11 @@
-const apiRouter = require("express").Router();
-const express = require("express");
-const { ratingsRouter } = require('./ratingsRouter')
+const ApiRouter = require("express").Router();
+const router = require('../ratings')
 
 
-apiRouter.use("/ratings", ratingsRouter)
+ApiRouter.use("/ratings", router)
 
 
 
 
-module.exports = apiRouter
+module.exports = ApiRouter
 

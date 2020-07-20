@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const rating = require('./rating')
+const rating = require('./ratingModel')
 
 router.get('/', async (req, res) => {
   try {
