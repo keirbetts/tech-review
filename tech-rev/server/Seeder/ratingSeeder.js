@@ -1,7 +1,7 @@
 const RatingSchema = require('../ratingModel')
 const mongoose = require('mongoose')
 
-mongoose.connect(process.env.DATABASE_URL, { useNewUrlParser: true });
+mongoose.connect('mongodb://localhost/rating', { useNewUrlParser: true, useUnifiedTopology: true });
 
 const ratings = [new RatingSchema({
   technology: 'react-bootstrap',
@@ -13,11 +13,11 @@ new RatingSchema({
 }),
 ]
 
-const done = 0
+let done = 0
 for (let i = 0; i < ratings.length; i++) {
   ratings[i].save(function (err, result) {
     done++;
-    if (done === products.length) {
+    if (done === ratings.length) {
       exit()
     }
   })
