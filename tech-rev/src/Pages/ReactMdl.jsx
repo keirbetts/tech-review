@@ -1,11 +1,12 @@
-import React from "react";
+import React from 'react';
+import './ReactMdl.css'
+import MdlSideBar from './ReactMdlSideBar'
 import { Container, Col, Row } from "react-bootstrap";
+import reactLogo from '../img/react-logo.png'
 
-import "./ReactBootstrap.css";
-import rbimg from "../img/react-bootstrap.png";
-import PageSideBar from "./ReactBootstrapSideBar";
 
-const ReactBootstrap = () => {
+
+const ReactMdl = () => {
   return (
     <div>
       <Container fluid="true" className="con-top">
@@ -16,7 +17,7 @@ const ReactBootstrap = () => {
             textAlign: "center",
           }}
         >
-          <strong>React Bootstrap Review</strong>
+          <strong>React MDL Review</strong>
         </h1>
         <br></br>
         <Row>
@@ -24,11 +25,11 @@ const ReactBootstrap = () => {
             <br></br>
             <img
               alt=""
-              src={rbimg}
+              src={reactLogo}
               style={{ height: "auto", width: "20rem", marginTop: "-1rem" }}
             />
             <hr className="hr" style={{ width: "20rem", float: "center" }}></hr>
-            <PageSideBar />
+            <MdlSideBar />
 
             <div
               style={{
@@ -38,19 +39,19 @@ const ReactBootstrap = () => {
               }}
             >
               <p>
-                Best for: Beginners and those looking to quickly create usable
-                components with ease.
+                Good: Offers a range of components and makes styling accessible
+                to the beginner.
               </p>
 
               <p>
-                Good: Makes responsive design simple. Offers  range of components
-                which can be easily and effectively implemented. Produces modern
-                designs.
-              </p>
-
+                Limitations:  Significant compatability issues with React.
+                 </p>
               <p>
-                Limitations: Designs often appear outdated and are difficult to customise, for
-                example the carousel. Those with better css skills should opt to make use of these in most instances.{" "}
+                The gitHub repo states ‘the official Layout component is not fully compatible with React’.
+                 </p>
+              <p>
+                The patch provided
+              does not work with more recent react scripts and another workaround is required.
               </p>
             </div>
           </Col>
@@ -60,33 +61,35 @@ const ReactBootstrap = () => {
               <strong>Overview:</strong>
             </h3>
             <p>
-              React Bootstrap is effective and easy to use but some components
-              remained limited as they cannot be styled easily.
+              Can appear confusing and users will be put off especially where more usable packages are available. This is reflected by its usage in recent months (see downloads table).
             </p>
             <p>
-              Largely dissipates the difficulties caused by CSS, by giving
-              significant control over individual components, but certain
-              components remain difficult to integrate successfully.
+              Major issues with compatability whilst the components offered are not any improvement on a package such as
+              React Bootstrap. For this reason React-MDL should be avoided.
+            </p>
+            <p>
+              Components also spell more compatability issues, this time with browsers.
+              Some components require a dialogue component which is only supported by two browsers currently (chrome and opera).
             </p>
             <hr className="hr" style={{ width: "45rem", marginLeft: '0rem' }}></hr>
             <h3>
               <strong>Documentation:</strong>
             </h3>
             <p>
-              The documentation is clear with good detailed examples for each component.
+              Installation guidance is clear when you land on the page.
+       </p>
             <p>
-                Advice on how to install and import is easy to find.
-            </p>
-              <p>
-                The docs should not pose difficulties even for the novice user. In many instances components
-                    can be copied and pasted from the docs with only minor adjustments.
-            </p>
+              Less clear is the need to require in the original MDL files into your index.html (or as suggested create a new directory for them). This is disappointing</p>
+            <p>
+              Can be difficult to read as writing is small and large amounts of the page are frequently left blank in certain cases.
+               </p>
+            <p>
+              The standard of English is subpar, even on the laconic welcome page. Solid examples are provided and descriptions
             </p>
             <p>
-              On the flipside the number of components and their
-            flexibility means it can take time to find what you're looking
-            for.
+              Examples are good but can be convoluted, though not verbose.
             </p>
+
             <hr
               style={{ borderTop: "2px solid lightblue", width: "45rem", marginLeft: '0rem' }}
             ></hr>
@@ -106,7 +109,7 @@ const ReactBootstrap = () => {
               Styling to address this can be difficult, whilst ncluding an image within a card often remains a
 drawn out process.
                 </p>
-            <h3>
+            {/* <h3>
               <strong>Carousel</strong>
             </h3>
             <p>
@@ -121,9 +124,9 @@ drawn out process.
             <p>
               A controlled carousel is available as an extension of the standard
               carousel.
-            </p>
+            </p>*/}
             <h3>
-              <strong>Container</strong>
+              <strong>Grid</strong>
             </h3>
             <p>
               {" "}
@@ -142,4 +145,4 @@ drawn out process.
   );
 };
 
-export default ReactBootstrap;
+export default ReactMdl;
