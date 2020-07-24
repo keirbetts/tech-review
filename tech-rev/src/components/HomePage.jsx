@@ -5,6 +5,7 @@ import SemanticUi from "../Pages/SemanticUi";
 import MaterialUi from "../Pages/MaterialUi";
 import Fecards from "../Cards/Fecards";
 import Title from "../components/title";
+import ReactMdl from "../Pages/ReactMdl";
 
 const HomePage = () => {
   return (
@@ -17,6 +18,7 @@ const HomePage = () => {
         <Title path='/' />
         <Fecards path="/felibraries" />
         <ReactBootstrap path="/felibraries/reactbootstrap" />
+        <ReactMdl path="/felibraries/react-mdl" />
         <SemanticUi path="/felibraries/semantic-ui" />
         <MaterialUi path="/felibraries/material-ui" />
       </Router>
