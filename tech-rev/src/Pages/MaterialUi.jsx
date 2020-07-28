@@ -61,9 +61,10 @@ const MaterialUi = () => {
             </p>
             {/* This issue is highlighted by the carousel where styling is difficult and no default styles are available for images etc. */}
             <p>
-              Largely dissipates the difficulties caused by CSS, by giving
-              significant control over individual components, but certain
-              components remain difficult to integrate successfully.
+              Largely dissipates the difficulties caused by CSS, by giving user
+              more control over components in term of spacing margins. Its
+              integration with CSS grid helps with placements of different
+              components.
             </p>
             <hr className="hr" style={{ width: "25rem" }}></hr>
             <h3>
