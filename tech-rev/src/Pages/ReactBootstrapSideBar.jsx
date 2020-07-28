@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Col, Row } from "react-bootstrap";
 import StarRatingComponent from "react-star-rating-component";
+import BootstrapApiCall from "./BootstrapApiCall";
 
 const PageSideBar = () => {
   return (
@@ -44,6 +45,7 @@ const PageSideBar = () => {
                 value={4}
               />
             </div>
+            <BootstrapApiCall />
           </Col>
         </Row>
       </Container>
