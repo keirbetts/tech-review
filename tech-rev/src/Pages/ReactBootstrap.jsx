@@ -103,7 +103,7 @@ const ReactBootstrap = () => {
               Card appear outdated and difficult to integrate into a clean and modern design, often appearing square and blocky.
               </p>
             <p>
-              Styling to address this can be difficult, whilst ncluding an image within a card often remains a
+              Styling to address this can be difficult, whilst including an image within a card often remains a
 drawn out process.
                 </p>
             <h3>
