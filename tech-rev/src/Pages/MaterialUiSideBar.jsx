@@ -2,6 +2,7 @@ import React from "react";
 import "./MaterialUi.css";
 import { Container, Col, Row } from "react-bootstrap";
 import StarRatingComponent from "react-star-rating-component";
+import MaterialUIApiCall from "./MaterialUIApiCall";
 
 const MaterialUIPageSideBar = () => {
   return (
@@ -45,6 +46,7 @@ const MaterialUIPageSideBar = () => {
                 value={4}
               />
             </div>
+            <MaterialUIApiCall />
           </Col>
         </Row>
       </Container>

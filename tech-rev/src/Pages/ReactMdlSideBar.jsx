@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Col, Row } from "react-bootstrap";
 import StarRatingComponent from "react-star-rating-component";
+import ReactMdlApiCall from "./ReactMdlApiCall";
 
 const ReactMdlSidebar = () => {
   return (
@@ -44,6 +45,7 @@ const ReactMdlSidebar = () => {
                 value={2}
               />
             </div>
+            <ReactMdlApiCall />
           </Col>
         </Row>
       </Container>

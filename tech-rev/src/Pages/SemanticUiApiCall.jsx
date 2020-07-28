@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import * as api from "../api";
 
-class MaterialUIApiCall extends Component {
+class SemanticUIApiCall extends Component {
   state = {
     monthlyDownloads: "",
   };
 
-  materialInvoker = () => {
-    api.fetchMaterialUi().then(({ downloads }) => {
+  semanticInvoker = () => {
+    api.fetchSemanticUi().then(({ downloads }) => {
       this.setState({ monthlyDownloads: downloads });
     });
   };
@@ -26,4 +26,4 @@ class MaterialUIApiCall extends Component {
   }
 }
 
-export default MaterialUIApiCall;
+export default SemanticUIApiCall;
