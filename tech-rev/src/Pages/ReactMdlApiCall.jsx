@@ -1,19 +1,19 @@
 import React, { Component } from "react";
 import * as api from "../api";
 
-class MaterialUIApiCall extends Component {
+class ReactMdlApiCall extends Component {
   state = {
     monthlyDownloads: "",
   };
 
-  materialInvoker = () => {
-    api.fetchMaterialUi().then(({ downloads }) => {
+  reactMdlInvoker = () => {
+    api.fetchReactMdl().then(({ downloads }) => {
       this.setState({ monthlyDownloads: downloads });
     });
   };
 
   componentDidMount = () => {
-    this.materialInvoker();
+    this.reactMdlInvoker();
   };
 
   render() {
@@ -26,4 +26,4 @@ class MaterialUIApiCall extends Component {
   }
 }
 
-export default MaterialUIApiCall;
+export default ReactMdlApiCall;
