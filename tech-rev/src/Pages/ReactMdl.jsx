@@ -100,31 +100,11 @@ const ReactMdl = () => {
               <strong>Cards</strong>
             </h3>
             <p>
-              Cards provide a simple way to display content responsively using components such as Carddeck.
+              Cards provide a simple way to display content.
               </p>
             <p>
-              Card appear outdated and difficult to integrate into a clean and modern design, often appearing square and blocky.
+              Cards can do initially appear outdated but they are easier to style than their bootstrap counterparts
               </p>
-            <p>
-              Styling to address this can be difficult, whilst ncluding an image within a card often remains a
-drawn out process.
-                </p>
-            {/* <h3>
-              <strong>Carousel</strong>
-            </h3>
-            <p>
-              {" "}
-              Quickly creates a working carousel.
-            </p>
-            <p>
-              Styling inside the carousel is difficult, thus formatting and
-              adding images it time consuming and may prove challenging for
-              the inexperiences user
-</p>
-            <p>
-              A controlled carousel is available as an extension of the standard
-              carousel.
-            </p>*/}
             <h3>
               <strong>Grid</strong>
             </h3>
@@ -133,11 +113,12 @@ drawn out process.
               A responsive container is easy to implement and style.
               </p>
             <p>
-              The Col and Row components work well within this system
-              </p>
-            <p>
-              Props is an effective tool to make flexible, responsive designs.
+              Props is an effective tool to make flexible, responsive designs, but not an upgrade on Bootstrap
             </p>
+            <p>
+              The React-MDL grid is a useful tool, but not an upgrade on other packages and given the compatability
+              issues and the poor quality of documentation is best avoided.
+              </p>
           </Col>
         </Row>
       </Container>
