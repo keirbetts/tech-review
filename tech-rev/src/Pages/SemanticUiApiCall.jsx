@@ -13,7 +13,7 @@ class SemanticUIApiCall extends Component {
   };
 
   componentDidMount = () => {
-    this.materialInvoker();
+    this.semanticInvoker();
   };
 
   render() {
