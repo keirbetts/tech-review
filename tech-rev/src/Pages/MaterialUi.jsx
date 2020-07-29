@@ -14,7 +14,7 @@ const MaterialUi = () => {
             textAlign: "center",
           }}
         >
-          <strong>MaterialUi Review</strong>
+          <strong>Material-UI Review</strong>
         </h1>
         <br></br>
         <Row>
@@ -57,29 +57,27 @@ const MaterialUi = () => {
               <strong>Overview:</strong>
             </h3>
             <p>
-              MaterialUi is effective and easy to use it styling are more modern
+              Material UI offers an extensive choice of components with a
+              variety of designs. Components are clean and can be used to create
+              professional websites.
             </p>
-            {/* This issue is highlighted by the carousel where styling is difficult and no default styles are available for images etc. */}
             <p>
-              Largely dissipates the difficulties caused by CSS, by giving user
-              more control over components in term of spacing margins. Its
-              integration with CSS grid helps with placements of different
-              components.
+              Components are easy to implement in projects and clear documentation
+              with example code is provided.
             </p>
             <hr className="hr" style={{ width: "25rem" }}></hr>
             <h3>
               <strong>Documentation:</strong>
             </h3>
             <p>
-              Clear with good examples. The docs are clear on how to install
-              material ui and has clear instructions on how to reference their
-              own style sheets. They also have the command to help you along as
-              well
+              Documentation provides clear installation advie with instruction on
+              referencing style sheets. Commands are provided which offers further
+              support for the first-time user.
             </p>
             <p>
-              Docs are also clear on how components will looks and have an in
-              page sandbox editor, giving the user an opportunity to try the
-              code before using it.
+              It is evident how the components will look, with an integrated sandbox
+              editor provided. This gives the user oportunity to experiment with code
+              prior to implementation in a project.
             </p>
             <p>
               {" "}
@@ -96,37 +94,34 @@ const MaterialUi = () => {
               <strong>Cards</strong>
             </h3>
             <p>
-              {" "}
-              The card component for material UI supports multiple actions such
-              as UI controls and an overflow menu. It has a minimalist looking
-              design and has different variants that users can choose to use.
-              Images can also be incorporated into the component and the
-              documentations are clear where problems might arises and offer
-              possible solution for them.
+              Supports a range of actions including integrated controls and an
+              overflow menu.
+              </p>
+            <p>
+              The basic design provides a minimalist in style and
+              offers a number of variations which can be selected at the users
+              digression.
+              </p>
+            <p>
+              Images can be easily incorporated and documentation provides
+              information on where problems may occur, offering potential
+              solutions to these issues.
             </p>
 
             <h3>
               <strong>Container</strong>
             </h3>
             <p>
-              {" "}
-              Material UI is similar to bootstrap, in that it is responsive and
-              easy to use. It provides the option for a fixed container or a
-              fluid container. Material UI also has a row and col component,
-              that can be used in conjunction with CSS grid. It also has the
-              option to define clear spacing for each component which could make
-              CSS more manageable.
+              Responsive and easy to use. The user can choose between a fluid
+              or fixed container
             </p>
-            <h3>
-              <strong>Navigation</strong>
-            </h3>
             <p>
-              {" "}
-              Material UI offers an extensive choice of components with a
-              variety of designs, they all look very clean and are ideal for a
-              professional looking site. The components that can be use such as
-              drawer, menu are all easy to use and have documents that clear on
-              how to implement them as well as example code that can be use.
+              Row and Col components are provided to use in conjuction with the
+              CSS grid system
+              </p>
+            <p>
+              The option to define clear spacing for each component is apparent,
+              making CSS easier to use.
             </p>
           </Col>
         </Row>
