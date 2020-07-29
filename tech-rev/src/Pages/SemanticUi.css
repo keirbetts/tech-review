@@ -1,0 +1,25 @@
+.para {
+  margin-left: 19rem;
+  color: whitesmoke;
+  font-family: "Courier New";
+  padding-top: 0;
+}
+
+.con-top {
+  margin-left: 5rem;
+}
+
+.hr {
+  border-top: "2px solid lightblue";
+  width: 50rem;
+}
+
+@media (max-width: 969px) {
+  .para {
+    margin-left: 0;
+  }
+
+  .con-top {
+    margin-left: 1rem;
+  }
+}

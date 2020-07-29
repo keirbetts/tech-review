@@ -65,7 +65,7 @@ const MaterialUi = () => {
               Components are easy to implement in projects and clear documentation
               with example code is provided.
             </p>
-            <hr className="hr" style={{ width: "25rem" }}></hr>
+            <hr className="hr" style={{ width: "45rem", marginLeft: '0rem' }}></hr>
             <h3>
               <strong>Documentation:</strong>
             </h3>
@@ -85,7 +85,7 @@ const MaterialUi = () => {
               take time to find what you're looking for.{" "}
             </p>
             <hr
-              style={{ borderTop: "2px solid lightblue", width: "25rem" }}
+              style={{ borderTop: "2px solid lightblue", width: "45rem", marginLeft: '0rem' }}
             ></hr>
             <h1>
               <strong>Components</strong>

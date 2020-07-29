@@ -34,7 +34,7 @@ const Fecards = () => {
             </Button>
           </Col>
           <Col sm={3}><h2><strong>Material UI</strong></h2>
-            <p><strong>React Components built for easier web development</strong></p>
+            <p><strong>React Components for faster and easier web development</strong></p>
             <StarComp />
             <Button variant='outline-light'>
               <Link style={{ color: "whitesmoke" }} to={"/felibraries/material-ui"}>
@@ -43,7 +43,7 @@ const Fecards = () => {
             </Button>
           </Col>
           <Col sm={3}><h2><strong>Semantic UI</strong></h2>
-            <p><strong>Create beautiful responsive layouts this is a library</strong></p>
+            <p><strong>Create beautiful responsive layouts using HTML</strong></p>
             <SemanticStar />
             <Button variant='outline-light'>
               <Link style={{ color: "whitesmoke" }} to={"/felibraries/semantic-ui"}>
@@ -52,7 +52,7 @@ const Fecards = () => {
             </Button>
           </Col>
           <Col sm={3}><h2><strong>React-MDL</strong></h2>
-            <p><strong>Creates non-responsive layouts this is outdated</strong></p>
+            <p><strong>React components for Material Design Lite</strong></p>
             <ReactMdlStar />
             <Button variant='outline-light'>
               <Link style={{ color: "whitesmoke" }} to={"/felibraries/react-mdl"}>
