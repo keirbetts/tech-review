@@ -46,8 +46,11 @@ const MaterialUi = () => {
               </p>
 
               <p>
-                Limitations: Designs can be limited, those with better css
-                skills should opt to make use of these in most instances.{" "}
+                Limitations: Although the documents provides clear code example
+                and different component options, they can sometime lead to messy
+                code. It can also cause some visual discrepancies across the app
+                screens and forms. The documentation are clear for most
+                components but are lacking for some.{" "}
               </p>
             </div>
           </Col>
@@ -62,22 +65,25 @@ const MaterialUi = () => {
               professional websites.
             </p>
             <p>
-              Components are easy to implement in projects and clear documentation
-              with example code is provided.
+              Components are easy to implement in projects and clear
+              documentation with example code is provided.
             </p>
-            <hr className="hr" style={{ width: "45rem", marginLeft: '0rem' }}></hr>
+            <hr
+              className="hr"
+              style={{ width: "45rem", marginLeft: "0rem" }}
+            ></hr>
             <h3>
               <strong>Documentation:</strong>
             </h3>
             <p>
-              Documentation provides clear installation advie with instruction on
-              referencing style sheets. Commands are provided which offers further
-              support for the first-time user.
+              Documentation provides clear installation with instruction on
+              referencing style sheets. Commands are provided which offers
+              further support for the first-time user.
             </p>
             <p>
-              It is evident how the components will look, with an integrated sandbox
-              editor provided. This gives the user oportunity to experiment with code
-              prior to implementation in a project.
+              It is evident how the components will look, with an integrated
+              sandbox editor provided. This gives the user opportunity to
+              experiment with code prior to implementation in a project.
             </p>
             <p>
               {" "}
@@ -85,7 +91,11 @@ const MaterialUi = () => {
               take time to find what you're looking for.{" "}
             </p>
             <hr
-              style={{ borderTop: "2px solid lightblue", width: "45rem", marginLeft: '0rem' }}
+              style={{
+                borderTop: "2px solid lightblue",
+                width: "45rem",
+                marginLeft: "0rem",
+              }}
             ></hr>
             <h1>
               <strong>Components</strong>
@@ -96,12 +106,12 @@ const MaterialUi = () => {
             <p>
               Supports a range of actions including integrated controls and an
               overflow menu.
-              </p>
+            </p>
             <p>
-              The basic design provides a minimalist in style and
-              offers a number of variations which can be selected at the users
+              The basic design provides a minimalist in style and offers a
+              number of variations which can be selected at the users
               digression.
-              </p>
+            </p>
             <p>
               Images can be easily incorporated and documentation provides
               information on where problems may occur, offering potential
@@ -112,13 +122,13 @@ const MaterialUi = () => {
               <strong>Container</strong>
             </h3>
             <p>
-              Responsive and easy to use. The user can choose between a fluid
-              or fixed container
+              Responsive and easy to use. The user can choose between a fluid or
+              fixed container
             </p>
             <p>
               Row and Col components are provided to use in conjuction with the
               CSS grid system
-              </p>
+            </p>
             <p>
               The option to define clear spacing for each component is apparent,
               making CSS easier to use.
