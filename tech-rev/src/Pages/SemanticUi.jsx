@@ -37,18 +37,19 @@ const SemanticUi = () => {
               }}
             >
               <p>
-                Best for: beginners and those looking to quickly create usable
-                components with ease.
+                Best for: Developers who know JavaScript and have some experience.
+                Those who want a more customisable alternative to bootstrap.
               </p>
 
               <p>
-                Good: Makes responsive design simple. A range of components
-                which can be effectively used. Produces better looking websites.{" "}
+                Good: Offers a wide range of components with greater flexibility
+                on styling than other libraries. Creates clean and modern designs.
               </p>
 
               <p>
-                Limitations: Designs can be limited, those with better css
-                skills should opt to make use of these in most instances.{" "}
+                Limitations: Not suited to the beginner or developers who don't know JavaScript.
+                Community is small so seeking help can be difficult. Lack of updates in recent
+                years and no update at all between 2018-19.
               </p>
             </div>
           </Col>
@@ -58,9 +59,10 @@ const SemanticUi = () => {
               <strong>Overview:</strong>
             </h3>
             <p>
-              Material UI offers an extensive choice of components with a
-              variety of designs. Components are clean and can be used to create
-              professional websites.
+              Offers an unrivalled selection of components, themes, collections
+              and modules. Provides unique components such as feed and comment
+              whilst relaxed designs allows for extensive styling to be completed
+              by the user with ease.
             </p>
             <p>
               Components are easy to implement in projects and clear documentation
@@ -72,57 +74,63 @@ const SemanticUi = () => {
             </h3>
             <p>
               Documentation provides clear installation advie with instruction on
-              referencing style sheets. Commands are provided which offers further
-              support for the first-time user.
+              referencing style sheets. Is well set out and easy to read.
             </p>
             <p>
-              It is evident how the components will look, with an integrated sandbox
-              editor provided. This gives the user oportunity to experiment with code
-              prior to implementation in a project.
+              A style guide is included in the documentation with clear advice on
+              how the user should write their code.
             </p>
             <p>
-              {" "}
-              The number of components and their different variety means it can
-              take time to find what you're looking for.{" "}
+              The sheer range of components and functionality can make it difficult
+              to find what you are looking for in a timely manner.
             </p>
             <hr
               style={{ borderTop: "2px solid lightblue", width: "45rem", marginLeft: '0rem' }}
             ></hr>
             <h1>
-              <strong>Components</strong>
+              <strong>Features</strong>
             </h1>
             <h3>
-              <strong>Cards</strong>
+              <strong>View</strong>
             </h3>
             <p>
-              Supports a range of actions including integrated controls and an
-              overflow menu.
+              A view represents a piece of website content which may be considered
+              as standard including an advertisement, comment or card. Item view
+              can show 'large collections of content for display'.
               </p>
-            <p>
-              The basic design provides a minimalist in style and
-              offers a number of variations which can be selected at the users
-              digression.
-              </p>
-            <p>
-              Images can be easily incorporated and documentation provides
-              information on where problems may occur, offering potential
-              solutions to these issues.
-            </p>
-
             <h3>
-              <strong>Container</strong>
+              <strong>Collection</strong>
             </h3>
             <p>
-              Responsive and easy to use. The user can choose between a fluid
-              or fixed container
+              As the name suggests this is a group of elements. In a collections
+              the elements rely on each other for example a Grid requires Columns
+              and Rows.
+            </p>
+            <h3>
+              <strong>Element</strong>
+            </h3>
+            <p>
+              A simple feature which can be implemented in standalone fashion such as
+              a Button or Header. This is the largest section of Semantic-UI.
+            </p>
+            <h3>
+              <strong>Module</strong>
+            </h3>
+            <p>
+              A component which takes some of its functionaly through integrated JavaScript
+              such as a checkbox. These come with the caveat of knowing JavaScript, and in
+              certain cases make use of callbacks.
+            </p>
+            <h3>
+              <strong>Behaviour</strong>
+            </h3>
+            <p>
+              These cannot exist as a standalone component and are used to provide functionality
+              to other components.
             </p>
             <p>
-              Row and Col components are provided to use in conjuction with the
-              CSS grid system
-              </p>
-            <p>
-              The option to define clear spacing for each component is apparent,
-              making CSS easier to use.
+              Behaviours provide useful functionality such as form validation and the ability for
+              elements to trigger action on a server.
             </p>
           </Col>
         </Row>

@@ -45,8 +45,8 @@ class ReactBootstrap extends Component {
 
                 <p>
                   Good: Makes responsive design simple. Offers  range of components
-                  which can be easily and effectively implemented. Produces modern
-                  designs.
+                  which can be easily and effectively implemented. Large community
+                  makes finding support simple.
               </p>
 
                 <p>

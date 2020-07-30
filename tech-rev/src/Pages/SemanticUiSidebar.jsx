@@ -18,7 +18,7 @@ const semanticUiSidebar = () => {
                 editing={false}
                 renderStarIcon={() => <span>★</span>}
                 starCount={5}
-                value={2}
+                value={4}
               />
             </div>
             <h5 style={{ float: "left", color: "whitesmoke" }}>
@@ -42,7 +42,7 @@ const semanticUiSidebar = () => {
                 editing={false}
                 renderStarIcon={() => <span>★</span>}
                 starCount={5}
-                value={2}
+                value={5}
               />
             </div>
             <SemanticUiApiCall />
