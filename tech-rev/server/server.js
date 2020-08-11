@@ -2,7 +2,7 @@ require("dotenv").config();
 const express = require("express");
 const server = express();
 const cors = require("cors");
-// const apiRouter = require('./Routers/ApiRouter')
+
 
 server.use(express.json());
 server.use(cors());
@@ -14,6 +14,8 @@ db.on("error", (error) => console.error(error));
 db.once("open", () => console.log("Connected to database!"));
 
 const ApiRouter = require("./Routers/ApiRouter");
+const votesRouter = require('./Routers/votesRouter.js')
 server.use("/api", ApiRouter);
+server.use('/votes', votesRouter)
 
 server.listen(3000, () => console.log("Server started!"));

@@ -5,6 +5,7 @@ import { Container, Col, Row, Button } from "react-bootstrap";
 import { Link } from "@reach/router";
 import ReactMdlStar from '../StarComps/ReactMdlStar';
 import SemanticStar from '../StarComps/SemanticStar';
+import Votes from './Votes';
 
 const Fecards = () => {
   return (
@@ -27,6 +28,7 @@ const Fecards = () => {
           <Col sm={3}><h2><strong>React Bootstrap</strong></h2>
             <p><strong>Bootstrap designs rebuilt for React integration</strong></p>
             <StarComp />
+            <Votes />
             <Button variant='outline-light'>
               <Link style={{ color: "white" }} to={"/felibraries/reactbootstrap"}>
                 Find Out More
