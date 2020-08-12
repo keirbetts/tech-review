@@ -38,6 +38,7 @@ const Fecards = () => {
           <Col sm={3}><h2><strong>Material UI</strong></h2>
             <p><strong>React Components for faster and easier web development</strong></p>
             <StarComp />
+            <Votes />
             <Button variant='outline-light'>
               <Link style={{ color: "whitesmoke" }} to={"/felibraries/material-ui"}>
                 Find Out More
@@ -47,6 +48,7 @@ const Fecards = () => {
           <Col sm={3}><h2><strong>Semantic UI</strong></h2>
             <p><strong>Create beautiful responsive layouts using HTML</strong></p>
             <SemanticStar />
+            <Votes />
             <Button variant='outline-light'>
               <Link style={{ color: "whitesmoke" }} to={"/felibraries/semantic-ui"}>
                 Find Out More
@@ -56,6 +58,7 @@ const Fecards = () => {
           <Col sm={3}><h2><strong>React-MDL</strong></h2>
             <p><strong>React components for Material Design Lite</strong></p>
             <ReactMdlStar />
+            <Votes />
             <Button variant='outline-light'>
               <Link style={{ color: "whitesmoke" }} to={"/felibraries/react-mdl"}>
                 Find Out More
@@ -63,6 +66,12 @@ const Fecards = () => {
             </Button>
           </Col>
         </Row>
+        <br></br>
+        <br></br>
+        <br></br>
+        <Col style={{ marginLeft: '37rem' }}>
+          <Row><Link to={'/felibraries/comparison'}><Button>Compare</Button></Link></Row>
+        </Col>
       </Container>
     </div >
   );
