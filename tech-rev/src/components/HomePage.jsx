@@ -6,17 +6,17 @@ import MaterialUi from "../Pages/MaterialUi";
 import Fecards from "../Cards/Fecards";
 import Title from "../components/title";
 import ReactMdl from "../Pages/ReactMdl";
+import Sortby from "../Cards/Sortby";
 
 const HomePage = () => {
   return (
     <div>
       <br></br>
-
       <br></br>
       <Router>
-        {/* <FrontEndCards path="/" /> */}
         <Title path='/' />
         <Fecards path="/felibraries" />
+        <Sortby path='/felibraries/comparison' />
         <ReactBootstrap path="/felibraries/reactbootstrap" />
         <ReactMdl path="/felibraries/react-mdl" />
         <SemanticUi path="/felibraries/semantic-ui" />

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Button } from 'react-bootstrap'
 
+
 class Votes extends Component {
   state = { count: 0 }
 
@@ -18,9 +19,18 @@ class Votes extends Component {
   render() {
     return (
       <div>
-        <Button variant='outline-light' onClick={this.handleClick}>Like Library</Button>
-        <Button variant='outline-light' onClick={this.handleDownVote}>Dislike Library</Button>
         <p>Likes: {this.state.count}</p>
+        {this.state.count <= 1 ?
+          <Button variant='success' onClick={this.handleClick}>Up    Vote</Button>
+          : alert('You may only vote once')}
+        <br></br>
+        <br></br>
+        {this.state.count >= -1 ?
+          <Button variant='danger' onClick={this.handleDownVote}>Downvote</Button>
+          : alert('You may only vote once')
+        }
+        <br></br>
+        <br></br>
       </div>
     );
   }
