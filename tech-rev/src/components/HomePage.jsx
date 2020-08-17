@@ -14,9 +14,9 @@ const HomePage = () => {
       <br></br>
       <br></br>
       <Router>
-        <Title path='/' />
+        <Title path="/" />
         <Fecards path="/felibraries" />
-        <Sortby path='/felibraries/comparison' />
+        <Sortby path="/felibraries/comparison" />
         <ReactBootstrap path="/felibraries/reactbootstrap" />
         <ReactMdl path="/felibraries/react-mdl" />
         <SemanticUi path="/felibraries/semantic-ui" />
