@@ -1,6 +1,6 @@
 import React from "react";
 
-const BeCard = () => {
+const Becard = () => {
   return (
     <div>
       <h1
@@ -16,4 +16,4 @@ const BeCard = () => {
   );
 };
 
-export default BeCard;
+export default Becard;

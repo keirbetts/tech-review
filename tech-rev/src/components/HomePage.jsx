@@ -7,8 +7,6 @@ import Fecards from "../Cards/Fecards";
 import Title from "../components/title";
 import ReactMdl from "../Pages/ReactMdl";
 import Sortby from "../Cards/Sortby";
-import Becard from "../Cards/Becards";
-import Npmcard from "../Cards/Npmcards";
 
 const HomePage = () => {
   return (
@@ -23,8 +21,6 @@ const HomePage = () => {
         <ReactMdl path="/felibraries/react-mdl" />
         <SemanticUi path="/felibraries/semantic-ui" />
         <MaterialUi path="/felibraries/material-ui" />
-        <Becard path="/belibraries" />
-        <Npmcard path="/npm-packages" />
       </Router>
       <br></br>
       <br></br>
